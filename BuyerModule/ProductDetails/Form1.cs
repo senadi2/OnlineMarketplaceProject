@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace LoginForm
+namespace ProductDetails
 {
     public partial class Form1: Form
     {
@@ -17,7 +17,7 @@ namespace LoginForm
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void grpProduct_Enter(object sender, EventArgs e)
         {
 
         }
