@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC526C71-95D2-43CE-92D1-260F5D0E27C3}</ProjectGuid>
+    <ProjectGuid>{097465A5-0D49-44FF-840D-E91EEAE10777}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LoginForm</RootNamespace>
-    <AssemblyName>LoginForm</AssemblyName>
+    <RootNamespace>PlaceOrder</RootNamespace>
+    <AssemblyName>PlaceOrder</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

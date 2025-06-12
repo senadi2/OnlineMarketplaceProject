@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EC526C71-95D2-43CE-92D1-260F5D0E27C3}</ProjectGuid>
+    <ProjectGuid>{3A654625-C497-411B-B00E-DCD36EFE6B98}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>LoginForm</RootNamespace>
-    <AssemblyName>LoginForm</AssemblyName>
+    <RootNamespace>BuyerDashForm</RootNamespace>
+    <AssemblyName>BuyerDashForm</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
