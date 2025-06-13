@@ -43,7 +43,8 @@
             // 
             this.lblTopic.AutoSize = true;
             this.lblTopic.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTopic.Location = new System.Drawing.Point(318, 38);
+            this.lblTopic.Location = new System.Drawing.Point(238, 31);
+            this.lblTopic.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTopic.Name = "lblTopic";
             this.lblTopic.Size = new System.Drawing.Size(200, 30);
             this.lblTopic.TabIndex = 0;
@@ -53,7 +54,8 @@
             // 
             this.lblRating.AutoSize = true;
             this.lblRating.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRating.Location = new System.Drawing.Point(184, 148);
+            this.lblRating.Location = new System.Drawing.Point(138, 120);
+            this.lblRating.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblRating.Name = "lblRating";
             this.lblRating.Size = new System.Drawing.Size(60, 21);
             this.lblRating.TabIndex = 2;
@@ -68,17 +70,19 @@
             "★★★☆☆",
             "★★★★☆",
             "★★★★★"});
-            this.cmbRating.Location = new System.Drawing.Point(344, 145);
+            this.cmbRating.Location = new System.Drawing.Point(258, 118);
+            this.cmbRating.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.cmbRating.Name = "cmbRating";
-            this.cmbRating.Size = new System.Drawing.Size(211, 24);
+            this.cmbRating.Size = new System.Drawing.Size(159, 21);
             this.cmbRating.TabIndex = 3;
             // 
             // btbSubmit
             // 
             this.btbSubmit.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btbSubmit.Location = new System.Drawing.Point(116, 472);
+            this.btbSubmit.Location = new System.Drawing.Point(87, 384);
+            this.btbSubmit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btbSubmit.Name = "btbSubmit";
-            this.btbSubmit.Size = new System.Drawing.Size(128, 47);
+            this.btbSubmit.Size = new System.Drawing.Size(96, 38);
             this.btbSubmit.TabIndex = 5;
             this.btbSubmit.Text = "Submit";
             this.btbSubmit.UseVisualStyleBackColor = true;
@@ -86,9 +90,10 @@
             // btncamcel
             // 
             this.btncamcel.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btncamcel.Location = new System.Drawing.Point(613, 472);
+            this.btncamcel.Location = new System.Drawing.Point(460, 384);
+            this.btncamcel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btncamcel.Name = "btncamcel";
-            this.btncamcel.Size = new System.Drawing.Size(128, 47);
+            this.btncamcel.Size = new System.Drawing.Size(96, 38);
             this.btncamcel.TabIndex = 6;
             this.btncamcel.Text = "Cancel";
             this.btncamcel.UseVisualStyleBackColor = true;
@@ -98,26 +103,30 @@
             this.groupBox1.Controls.Add(this.txtComments);
             this.groupBox1.Controls.Add(this.lblComments);
             this.groupBox1.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(116, 205);
+            this.groupBox1.Location = new System.Drawing.Point(87, 167);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(611, 192);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(458, 156);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Review";
             // 
             // txtComments
             // 
-            this.txtComments.Location = new System.Drawing.Point(72, 71);
+            this.txtComments.Location = new System.Drawing.Point(54, 58);
+            this.txtComments.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtComments.Multiline = true;
             this.txtComments.Name = "txtComments";
-            this.txtComments.Size = new System.Drawing.Size(432, 100);
+            this.txtComments.Size = new System.Drawing.Size(325, 82);
             this.txtComments.TabIndex = 6;
             // 
             // lblComments
             // 
             this.lblComments.AutoSize = true;
             this.lblComments.Font = new System.Drawing.Font("Modern No. 20", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblComments.Location = new System.Drawing.Point(68, 29);
+            this.lblComments.Location = new System.Drawing.Point(51, 24);
+            this.lblComments.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblComments.Name = "lblComments";
             this.lblComments.Size = new System.Drawing.Size(85, 21);
             this.lblComments.TabIndex = 5;
@@ -125,15 +134,16 @@
             // 
             // Review
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 547);
+            this.ClientSize = new System.Drawing.Size(600, 444);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btncamcel);
             this.Controls.Add(this.btbSubmit);
             this.Controls.Add(this.cmbRating);
             this.Controls.Add(this.lblRating);
             this.Controls.Add(this.lblTopic);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Review";
             this.Text = "Review";
             this.Load += new System.EventHandler(this.Review_Load);
