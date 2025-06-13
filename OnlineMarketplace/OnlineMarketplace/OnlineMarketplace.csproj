@@ -35,6 +35,8 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +45,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\BuyerDashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BuyerDashForm.Designer.cs">
+      <DependentUpon>BuyerDashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ViewProductReviews.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ViewProductReviews.Designer.cs">
+      <DependentUpon>ViewProductReviews.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PlaceOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PlaceOrder.Designer.cs">
+      <DependentUpon>PlaceOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProductDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProductDetails.Designer.cs">
+      <DependentUpon>ProductDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ProductList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ProductList.Designer.cs">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Review.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Review.Designer.cs">
+      <DependentUpon>Review.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TrackOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TrackOrder.Designer.cs">
+      <DependentUpon>TrackOrder.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Admin.cs" />
     <Compile Include="Models\Buyer.cs" />
     <Compile Include="Models\Dispute.cs" />
@@ -59,7 +115,33 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Forms\" />
+    <EmbeddedResource Include="Forms\BuyerDashForm.resx">
+      <DependentUpon>BuyerDashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PlaceOrder.resx">
+      <DependentUpon>PlaceOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProductDetails.resx">
+      <DependentUpon>ProductDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ProductList.resx">
+      <DependentUpon>ProductList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Review.resx">
+      <DependentUpon>Review.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TrackOrder.resx">
+      <DependentUpon>TrackOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ViewProductReviews.resx">
+      <DependentUpon>ViewProductReviews.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
